@@ -1,4 +1,4 @@
-package odev2;
+package workingOOP;
 
 public class InstructorManager extends UserManager{
 	public void courseAdd(Instructor instructor, Course course) {
@@ -6,7 +6,7 @@ public class InstructorManager extends UserManager{
 	}
 	
 	public void courseUpdate(Instructor instructor, Course course) {
-		System.out.println(instructor.getFullName()+": "+course.courseName+" "+"kursunu güncelledi.");
+		System.out.println(instructor.getFullName()+": "+course.courseName+" "+"kursunu gÃ¼ncelledi.");
 	}
 	
 }

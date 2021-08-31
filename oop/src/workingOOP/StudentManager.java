@@ -2,7 +2,7 @@ package workingOOP;
 
 public class StudentManager extends UserManager{
 	public void courseRegister(Student student, Course course) {
-		System.out.println(student.getFullName()+": "+course.courseName+" kursuna kayýt oldu.");
+		System.out.println(student.getFullName()+": "+course.courseName+" kursuna kayit oldu.");
 	}
 	
 	public void courseEvaluation(Student student,String message) {

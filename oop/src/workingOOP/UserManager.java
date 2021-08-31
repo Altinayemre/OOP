@@ -1,11 +1,11 @@
-package odev2;
+package workingOOP;
 
 public class UserManager {
 	public void login(User user) {
-		System.out.println(user.getFullName()+ ": giriş yaptı.");
+		System.out.println(user.getFullName()+ ": giriÃ¾ yaptÃ½.");
 	};
 	
 	public void logout(User user) {
-		System.out.println(user.getFullName()+ ": çıkış yaptı.");
+		System.out.println(user.getFullName()+ ": Ã§Ã½kÃ½Ã¾ yaptÃ½.");
 	};
 }

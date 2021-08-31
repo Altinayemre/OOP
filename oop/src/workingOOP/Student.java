@@ -1,4 +1,4 @@
-package odev2;
+package workingOOP;
 
 public class Student extends User{
 	
